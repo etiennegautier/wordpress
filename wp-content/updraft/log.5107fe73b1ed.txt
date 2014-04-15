@@ -1,0 +1,240 @@
+0000.001 (0) Opened log file at time: Mon, 14 Apr 2014 09:11:40 +0000 on http://localhost/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.0 WP: 3.8.2 PHP: 5.4.10 (Darwin etienne.local 13.1.0 Darwin Kernel Version 13.1.0: Thu Jan 16 19:40:37 PST 2014; root:xnu-2422.90.20~2/RELEASE_X86_64 x86_64) MySQL: 5.5.29 Server: Apache/2.2.23 (Unix) mod_ssl/2.2.23 OpenSSL/0.9.8y DAV/2 PHP/5.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.7M | 24.5M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 45296.6 Mb
+0000.006 (0) Tasks: Backup files:  (schedule: manual) Backup DB: 1 (schedule: daily)
+0000.007 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.020 (0) Requesting semaphore lock (d)
+0000.023 (0) Set semaphore last lock (d) time to 2014-04-14 09:11:40
+0000.023 (0) Semaphore lock (d) complete
+0000.026 (0) Backup run: resumption=0, nonce=5107fe73b1ed, begun at=1397466700 (0s ago), job type=backup
+0000.027 (0) Scheduling a resumption (1) after 300 seconds (1397467000) in case this run gets aborted
+0000.048 (0) This backup run is not intended for files - skipping
+0000.049 (0) Beginning creation of database dump
+0000.062 (0) Table wp_options: Total expected rows (approximate): 320
+0000.102 (0) Table wp_options: Total rows added: 564 in 0.04 seconds
+0000.103 (0) Table wp_options: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_options.table.gz - 48 Kb)
+0000.111 (0) Table wp_users: Total expected rows (approximate): 2
+0000.115 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0000.117 (0) Table wp_users: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_users.table.gz - 0 Kb)
+0000.120 (0) Table wp_usermeta: Total expected rows (approximate): 88
+0000.126 (0) Table wp_usermeta: Total rows added: 88 in 0.01 seconds
+0000.128 (0) Table wp_usermeta: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_usermeta.table.gz - 0 Kb)
+0000.135 (0) Table wp_commentmeta: Total expected rows (approximate): 21
+0000.138 (0) Table wp_commentmeta: Total rows added: 21 in 0.00 seconds
+0000.139 (0) Table wp_commentmeta: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_commentmeta.table.gz - 0 Kb)
+0000.143 (0) Table wp_comments: Total expected rows (approximate): 23
+0000.150 (0) Table wp_comments: Total rows added: 23 in 0.01 seconds
+0000.151 (0) Table wp_comments: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_comments.table.gz - 0 Kb)
+0000.156 (0) Table wp_links: Total expected rows (approximate): 0
+0000.159 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0000.161 (0) Table wp_links: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_links.table.gz - 0 Kb)
+0000.166 (0) Table wp_postmeta: Total expected rows (approximate): 580
+0000.191 (0) Table wp_postmeta: Total rows added: 603 in 0.02 seconds
+0000.193 (0) Table wp_postmeta: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_postmeta.table.gz - 0 Kb)
+0000.198 (0) Table wp_posts: Total expected rows (approximate): 124
+0000.225 (0) Table wp_posts: Total rows added: 124 in 0.03 seconds
+0000.226 (0) Table wp_posts: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_posts.table.gz - 0 Kb)
+0000.232 (0) Table wp_term_relationships: Total expected rows (approximate): 45
+0000.235 (0) Table wp_term_relationships: Total rows added: 45 in 0.00 seconds
+0000.236 (0) Table wp_term_relationships: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_term_relationships.table.gz - 0 Kb)
+0000.241 (0) Table wp_term_taxonomy: Total expected rows (approximate): 26
+0000.245 (0) Table wp_term_taxonomy: Total rows added: 26 in 0.00 seconds
+0000.246 (0) Table wp_term_taxonomy: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_term_taxonomy.table.gz - 0 Kb)
+0000.253 (0) Table wp_terms: Total expected rows (approximate): 26
+0000.256 (0) Table wp_terms: Total rows added: 26 in 0.00 seconds
+0000.257 (0) Table wp_terms: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_terms.table.gz - 0 Kb)
+0000.263 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 58
+0000.268 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 58 in 0.00 seconds
+0000.269 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_order_itemmeta.table.gz - 0 Kb)
+0000.273 (0) Table wp_woocommerce_termmeta: Total expected rows (approximate): 37
+0000.277 (0) Table wp_woocommerce_termmeta: Total rows added: 37 in 0.00 seconds
+0000.278 (0) Table wp_woocommerce_termmeta: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_termmeta.table.gz - 0 Kb)
+0000.282 (0) Table wp_ninja_forms: Total expected rows (approximate): 1
+0000.285 (0) Table wp_ninja_forms: Total rows added: 1 in 0.00 seconds
+0000.288 (0) Table wp_ninja_forms: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms.table.gz - 0 Kb)
+0000.302 (0) Table wp_ninja_forms_fav_fields: Total expected rows (approximate): 4
+0000.309 (0) Table wp_ninja_forms_fav_fields: Total rows added: 4 in 0.00 seconds
+0000.310 (0) Table wp_ninja_forms_fav_fields: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms_fav_fields.table.gz - 0 Kb)
+0000.315 (0) Table wp_ninja_forms_fields: Total expected rows (approximate): 5
+0000.319 (0) Table wp_ninja_forms_fields: Total rows added: 5 in 0.00 seconds
+0000.320 (0) Table wp_ninja_forms_fields: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms_fields.table.gz - 0 Kb)
+0000.324 (0) Table wp_ninja_forms_subs: Total expected rows (approximate): 0
+0000.326 (0) Table wp_ninja_forms_subs: Total rows added: 0 in 0.00 seconds
+0000.327 (0) Table wp_ninja_forms_subs: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms_subs.table.gz - 0 Kb)
+0000.333 (0) Table wp_revslider_css: Total expected rows (approximate): 67
+0000.339 (0) Table wp_revslider_css: Total rows added: 57 in 0.01 seconds
+0000.341 (0) Table wp_revslider_css: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_css.table.gz - 0 Kb)
+0000.346 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0000.348 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0000.349 (0) Table wp_revslider_layer_animations: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_layer_animations.table.gz - 0 Kb)
+0000.353 (0) Table wp_revslider_settings: Total expected rows (approximate): 1
+0000.356 (0) Table wp_revslider_settings: Total rows added: 1 in 0.00 seconds
+0000.357 (0) Table wp_revslider_settings: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_settings.table.gz - 0 Kb)
+0000.362 (0) Table wp_revslider_sliders: Total expected rows (approximate): 1
+0000.365 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0000.367 (0) Table wp_revslider_sliders: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_sliders.table.gz - 0 Kb)
+0000.371 (0) Table wp_revslider_slides: Total expected rows (approximate): 2
+0000.375 (0) Table wp_revslider_slides: Total rows added: 3 in 0.00 seconds
+0000.376 (0) Table wp_revslider_slides: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_slides.table.gz - 0 Kb)
+0000.381 (0) Table wp_taxonomymeta: Total expected rows (approximate): 0
+0000.384 (0) Table wp_taxonomymeta: Total rows added: 0 in 0.00 seconds
+0000.384 (0) Table wp_taxonomymeta: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_taxonomymeta.table.gz - 0 Kb)
+0000.388 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0000.390 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0000.392 (0) Table wp_wfBadLeechers: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfBadLeechers.table.gz - 0 Kb)
+0000.399 (0) Table wp_wfBlocks: Total expected rows (approximate): 0
+0000.410 (0) Table wp_wfBlocks: Total rows added: 0 in 0.00 seconds
+0000.414 (0) Table wp_wfBlocks: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfBlocks.table.gz - 0 Kb)
+0000.420 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+0000.422 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0000.423 (0) Table wp_wfBlocksAdv: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfBlocksAdv.table.gz - 0 Kb)
+0000.428 (0) Table wp_wfConfig: Total expected rows (approximate): 89
+0000.434 (0) Table wp_wfConfig: Total rows added: 89 in 0.00 seconds
+0000.435 (0) Table wp_wfConfig: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfConfig.table.gz - 0 Kb)
+0000.440 (0) Table wp_wfCrawlers: Total expected rows (approximate): 0
+0000.442 (0) Table wp_wfCrawlers: Total rows added: 0 in 0.00 seconds
+0000.444 (0) Table wp_wfCrawlers: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfCrawlers.table.gz - 0 Kb)
+0000.449 (0) Table wp_wfFileMods: Total expected rows (approximate): 0
+0000.451 (0) Table wp_wfFileMods: Total rows added: 0 in 0.00 seconds
+0000.452 (0) Table wp_wfFileMods: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfFileMods.table.gz - 0 Kb)
+0000.455 (0) Table wp_wfHits: Total expected rows (approximate): 0
+0000.460 (0) Table wp_wfHits: Total rows added: 0 in 0.00 seconds
+0000.461 (0) Table wp_wfHits: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfHits.table.gz - 0 Kb)
+0000.466 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0000.468 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0000.469 (0) Table wp_wfHoover: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfHoover.table.gz - 0 Kb)
+0000.473 (0) Table wp_wfIssues: Total expected rows (approximate): 4
+0000.478 (0) Table wp_wfIssues: Total rows added: 4 in 0.00 seconds
+0000.479 (0) Table wp_wfIssues: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfIssues.table.gz - 0 Kb)
+0000.483 (0) Table wp_wfLeechers: Total expected rows (approximate): 0
+0000.485 (0) Table wp_wfLeechers: Total rows added: 0 in 0.00 seconds
+0000.487 (0) Table wp_wfLeechers: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLeechers.table.gz - 0 Kb)
+0000.492 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+0000.495 (0) Table wp_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0000.497 (0) Table wp_wfLockedOut: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLockedOut.table.gz - 0 Kb)
+0000.503 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0000.509 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0000.518 (0) Table wp_wfLocs: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLocs.table.gz - 0 Kb)
+0000.525 (0) Table wp_wfLogins: Total expected rows (approximate): 0
+0000.530 (0) Table wp_wfLogins: Total rows added: 0 in 0.00 seconds
+0000.531 (0) Table wp_wfLogins: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLogins.table.gz - 0 Kb)
+0000.536 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0000.540 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0000.541 (0) Table wp_wfNet404s: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfNet404s.table.gz - 0 Kb)
+0000.547 (0) Table wp_wfReverseCache: Total expected rows (approximate): 0
+0000.550 (0) Table wp_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0000.552 (0) Table wp_wfReverseCache: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfReverseCache.table.gz - 0 Kb)
+0000.556 (0) Table wp_wfScanners: Total expected rows (approximate): 0
+0000.558 (0) Table wp_wfScanners: Total rows added: 0 in 0.00 seconds
+0000.559 (0) Table wp_wfScanners: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfScanners.table.gz - 0 Kb)
+0000.563 (0) Table wp_wfStatus: Total expected rows (approximate): 159
+0000.572 (0) Table wp_wfStatus: Total rows added: 144 in 0.01 seconds
+0000.573 (0) Table wp_wfStatus: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfStatus.table.gz - 0 Kb)
+0000.578 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0000.581 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0000.581 (0) Table wp_wfThrottleLog: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfThrottleLog.table.gz - 0 Kb)
+0000.585 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0000.587 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0000.587 (0) Table wp_wfVulnScanners: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfVulnScanners.table.gz - 0 Kb)
+0000.591 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0000.595 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0000.598 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0 Kb)
+0000.602 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0000.605 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0000.606 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0 Kb)
+0000.612 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 11
+0000.616 (0) Table wp_woocommerce_order_items: Total rows added: 11 in 0.00 seconds
+0000.617 (0) Table wp_woocommerce_order_items: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_order_items.table.gz - 0 Kb)
+0000.620 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0000.622 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0000.623 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0 Kb)
+0000.627 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0000.631 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0000.632 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_tax_rates.table.gz - 0 Kb)
+0000.635 (0) Table wp_yith_wcwl: Total expected rows (approximate): 0
+0000.637 (0) Table wp_yith_wcwl: Total rows added: 0 in 0.00 seconds
+0000.638 (0) Table wp_yith_wcwl: finishing file (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_yith_wcwl.table.gz - 0 Kb)
+0000.642 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_options.table.gz (1/48): adding to final database dump
+0000.657 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_users.table.gz (2/48): adding to final database dump
+0000.659 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_usermeta.table.gz (3/48): adding to final database dump
+0000.661 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_commentmeta.table.gz (4/48): adding to final database dump
+0000.663 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_comments.table.gz (5/48): adding to final database dump
+0000.665 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_links.table.gz (6/48): adding to final database dump
+0000.666 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_postmeta.table.gz (7/48): adding to final database dump
+0000.670 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_posts.table.gz (8/48): adding to final database dump
+0000.673 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_term_relationships.table.gz (9/48): adding to final database dump
+0000.675 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_term_taxonomy.table.gz (10/48): adding to final database dump
+0000.676 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_terms.table.gz (11/48): adding to final database dump
+0000.678 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_order_itemmeta.table.gz (12/48): adding to final database dump
+0000.681 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_termmeta.table.gz (13/48): adding to final database dump
+0000.682 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms.table.gz (14/48): adding to final database dump
+0000.683 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms_fav_fields.table.gz (15/48): adding to final database dump
+0000.684 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms_fields.table.gz (16/48): adding to final database dump
+0000.685 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_ninja_forms_subs.table.gz (17/48): adding to final database dump
+0000.686 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_css.table.gz (18/48): adding to final database dump
+0000.688 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_layer_animations.table.gz (19/48): adding to final database dump
+0000.689 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_settings.table.gz (20/48): adding to final database dump
+0000.690 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_sliders.table.gz (21/48): adding to final database dump
+0000.691 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_revslider_slides.table.gz (22/48): adding to final database dump
+0000.692 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_taxonomymeta.table.gz (23/48): adding to final database dump
+0000.694 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfBadLeechers.table.gz (24/48): adding to final database dump
+0000.696 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfBlocks.table.gz (25/48): adding to final database dump
+0000.698 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfBlocksAdv.table.gz (26/48): adding to final database dump
+0000.701 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfConfig.table.gz (27/48): adding to final database dump
+0000.702 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfCrawlers.table.gz (28/48): adding to final database dump
+0000.703 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfFileMods.table.gz (29/48): adding to final database dump
+0000.704 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfHits.table.gz (30/48): adding to final database dump
+0000.705 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfHoover.table.gz (31/48): adding to final database dump
+0000.706 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfIssues.table.gz (32/48): adding to final database dump
+0000.707 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLeechers.table.gz (33/48): adding to final database dump
+0000.709 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLockedOut.table.gz (34/48): adding to final database dump
+0000.710 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLocs.table.gz (35/48): adding to final database dump
+0000.712 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfLogins.table.gz (36/48): adding to final database dump
+0000.714 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfNet404s.table.gz (37/48): adding to final database dump
+0000.716 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfReverseCache.table.gz (38/48): adding to final database dump
+0000.717 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfScanners.table.gz (39/48): adding to final database dump
+0000.719 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfStatus.table.gz (40/48): adding to final database dump
+0000.721 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfThrottleLog.table.gz (41/48): adding to final database dump
+0000.723 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_wfVulnScanners.table.gz (42/48): adding to final database dump
+0000.724 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_attribute_taxonomies.table.gz (43/48): adding to final database dump
+0000.726 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (44/48): adding to final database dump
+0000.728 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_order_items.table.gz (45/48): adding to final database dump
+0000.729 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_tax_rate_locations.table.gz (46/48): adding to final database dump
+0000.731 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_woocommerce_tax_rates.table.gz (47/48): adding to final database dump
+0000.732 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db-table-wp_yith_wcwl.table.gz (48/48): adding to final database dump
+0000.733 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db.gz: finished writing out complete database file (96 Kb)
+0000.740 (0) Total database tables backed up: 48 (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db.gz, size: 107104, checksum (SHA1): 0198876f28725e868e0fc78168aae7df7785828f)
+0000.742 (0) Saving backup history
+0000.750 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.753 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.756 (0) Cloud backup selection: email
+0000.757 (0) Beginning dispatch of backup to remote (email)
+0000.759 (0) backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db.gz: email to: akira...
+0000.863 (0) Recording as successfully uploaded: backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db.gz (927639e99984122e8ff0679d48910c46)
+0000.868 (0) Deleting local file: backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db.gz: OK
+0000.871 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.872 (0) Number of backup sets in history: 5
+0000.873 (0) Examining backup set with datestamp: 1397466700 (Apr 14 2014 09:11:40)
+0000.874 (0) 1397466700: db: this set includes a database (backup_2014-04-14-1011_TapaComprix_5107fe73b1ed-db.gz); db count is now 1
+0000.876 (0) 1397466700: this backup set remains non-empty (0/1); will retain in history
+0000.878 (0) Examining backup set with datestamp: 1394707788 (Mar 13 2014 10:49:48)
+0000.879 (0) 1394707788: db: this set includes a database (backup_2014-03-13-1149_Tapascomprix_efe210fd9bc1-db.gz); db count is now 2
+0000.881 (0) 1394707788: this backup set remains non-empty (0/1); will retain in history
+0000.882 (0) Examining backup set with datestamp: 1394615904 (Mar 12 2014 09:18:24)
+0000.883 (0) 1394615904: db: this set includes a database (backup_2014-03-12-1018_Tapascomprix_0c50259528f5-db.gz); db count is now 3
+0000.883 (0) 1394615904: db: over retain limit (2); will delete this database
+0000.884 (0) Delete file: backup_2014-03-12-1018_Tapascomprix_0c50259528f5-db.gz, service=email
+0000.887 (0) 1394615904: this backup set is now empty; will remove from history
+0000.888 (0) 1394615904: corresponding log file not found - must have already been deleted
+0000.889 (0) Examining backup set with datestamp: 1394615619 (Mar 12 2014 09:13:39)
+0000.891 (0) 1394615619: this backup set remains non-empty (1/0); will retain in history
+0000.892 (0) Examining backup set with datestamp: 1394615481 (Mar 12 2014 09:11:21)
+0000.894 (0) 1394615481: this backup set remains non-empty (1/0); will retain in history
+0000.895 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0000.897 (0) Resume backup (5107fe73b1ed, 0): finish run
+0000.899 (0) Decremented the semaphore (d) by 1
+0000.900 (0) Semaphore (d) unlocked
+0000.900 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.905 (0) The backup apparently succeeded and is now complete
+0000.906 (0) No email will/can be sent - the user has not configured an email address.
+0000.907 (0) La sauvegarde s'est correctement effectué et est complète
